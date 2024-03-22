@@ -57,7 +57,7 @@ class ShowNetNode {
     ola::network::UDPSocket* GetSocket() { return m_socket; }
     void SocketReady();
 
-    static const uint16_t SHOWNET_MAX_UNIVERSES = 8;
+    static const uint16_t SHOWNET_MAX_UNIVERSES = 30;
 
     friend class ShowNetNodeTest;
 
